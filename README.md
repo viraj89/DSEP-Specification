@@ -46,6 +46,7 @@ You’re invited to Engage with the ecosystem to identify what can be leveraged/
 | Pramod Varma     | Maintainer, Reviewer           | @pramodkvarma   |
 | Sujith Nair      | Reviewer                       | @sjthnrk        |
 | Mayank Bansal    | Maintainer                     | @emmayank       |
+| Viraj Kulkarni    | Maintainer                     | @viraj89       |
 
 ## Acknowledgements
 
@@ -62,6 +63,40 @@ The author(s) of this specification would like to thank the following volunteers
 ## Implementing the specification
 
 To understanding how to implement the specification click [here](./docs)
+
+## Learn about the Use Cases
+Learn about their logical flows, user experience designs using Figma, and explore example JSONs for better understanding. 
+
+### Use Case - Courses
+- The user begins by logging into the app with the goal of finding courses to enhance their skills. They proceed to search for specific courses, such as "Data Analyst," by typing in the keywords and clicking the search button. The app then displays search results based on the matched keywords.
+
+- Within the search results, the user can view key details about each course, including the course title, duration, seller information, price, and ratings. The user then selects a desired course to pursue, leading them to the course description page, where they find more comprehensive information about the course. This page includes details such as the course description, highlights, duration, price, prerequisites, eligibility criteria, and an option to add the course to the cart.
+
+- Upon deciding to proceed, the user navigates to the cart page for checkout. At this point, they notice an option to apply for a scholarship. Opting to explore scholarship opportunities, the user selects the "Check for Scholarship" option and searches for available scholarships. <br/>
+
+[Read about Courses](./docs/4_Courses.md) <br/>
+
+### Use Case - Scholarship
+- The user discovers a few scholarships and, after selecting one, is presented with detailed information about the scholarship, including its description, application start and end dates, eligibility criteria, required documents, and an option to apply. Choosing to apply, the user is directed to a form, which they fill out, upload the necessary documents, and submit the application.
+
+- To track the status of the scholarship application, the user can visit the scholarship page at a later time. Once the scholarship provider approves the application, the user is directed back to the cart page. Here, the sub-total amount is displayed as zero, indicating that the user has successfully availed of the scholarship.
+
+- With the scholarship secured, the user proceeds to checkout and completes the necessary transaction. In this way, the user successfully identifies courses of interest, searches for and applies for scholarships, and finally enhances their skill set. <br/>
+
+[Read about Scholarships](./docs/5_Scholarships.md) <br/>
+
+### Use Case - Jobs
+- The user starts by logging into the app with the intention of finding and applying for a job. They initiate a search, for instance, using the keywords "data analyst" in the search box, resulting in a list of jobs that match the specified criteria.
+
+- Within the job search results, the user can see key details such as the job location and the name of the hiring company for each job listing. The user selects a specific job to view more details, including the job description, requirements, necessary qualifications, and whether the position is full-time or part-time. Additionally, there is an option to apply for the selected job.
+
+- Opting to apply, the user selects the "Apply Now" option, leading them to a form that captures basic user details like name, mobile number, and email ID. The form also provides an option to upload requested documents, such as the user's resume and degree certificates. After completing the form, the user selects "Apply Now" to submit their application.
+
+- Once submitted, the user's application is sent to the respective company. If there is a match between the user's profile and the company's requirements, the company will directly connect with the user.
+
+- The user has the flexibility to search for and apply to multiple jobs simultaneously. After submitting a job application, the user receives an appropriate message, confirming the successful submission of their application. This process allows the user to efficiently explore and apply for multiple job opportunities within the app. <br/>
+
+[Read about Jobs](./docs/6_Jobs.md) <br/>
 
 ## Specification Examples
 
